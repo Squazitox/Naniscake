@@ -15,3 +15,17 @@ document.getElementById('contactForm').addEventListener('submit', function(e){
   e.preventDefault();
   alert('Gracias! Hemos recibido tu mensaje. (Formulario demo)');
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const starsContainer = document.querySelector(".stars");
+
+  for (let i = 0; i < 100; i++) {  // número de estrellas
+    const star = document.createElement("div");
+    star.classList.add("star");
+    star.style.top = Math.random() * 100 + "%";
+    star.style.left = Math.random() * 100 + "%";
+    star.style.animationDuration = (1 + Math.random() * 2) + "s";
+    starsContainer.appendChild(star);
+  }
+});
+
