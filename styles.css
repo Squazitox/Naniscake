@@ -17,34 +17,27 @@ body{
   -moz-osx-font-smoothing:grayscale;
 }
 
-.site-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: black;
-  display: flex;
-  flex-direction: column; /* Logo arriba y nav abajo */
-  align-items: center;
-  justify-content: center;
-  padding: 10px 20px;
-  z-index: 1000;
+.site-header{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:12px 24px;
+  z-index:50;
+  background:linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.2));
+  border-bottom:1px solid rgba(212,175,55,0.06);
 }
-
-.logo-wrap img {
-  max-width: 180px; /* ajusta el tamaño */
-  height: auto;
-}
+.logo{height:56px}
+.logo-wrap{display:flex;align-items:center;gap:12px}
+.main-nav{display:flex;gap:18px;align-items:center}
+.main-nav a{color:var(--gold);text-decoration:none;font-weight:600}
+.nav-toggle{display:none;background:none;border:1px solid rgba(212,175,55,0.15);color:var(--gold);padding:6px 10px;border-radius:8px}
 
 .brand-wrap {
   text-align: center;
-}
-
-.logo {
-  max-width: 180px;        /* aumenta tamaño (ajusta según quieras) */
-  height: auto;
-  display: block;
-  margin: 0 auto;
 }
 
 .brand-title {
