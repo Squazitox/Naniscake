@@ -14,7 +14,7 @@ python -m http.server
 
 ## 🖼️ Capturas (ejemplo)
 ![Hero Screenshot](images/product1.jpg)
-![Carta Screenshot](images/product2.jpg)
+
 
 ## ✨ Características
 - Diseño responsive (desktop/móvil)
