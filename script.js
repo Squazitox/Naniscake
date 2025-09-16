@@ -19,12 +19,12 @@ document.getElementById('contactForm').addEventListener('submit', function(e){
 document.addEventListener("DOMContentLoaded", () => {
   const starsContainer = document.querySelector(".stars");
 
-  for (let i = 0; i < 100; i++) {  // número de estrellas
+  for (let i = 0; i < 100; i++) {
     const star = document.createElement("div");
     star.classList.add("star");
     star.style.top = Math.random() * 100 + "%";
     star.style.left = Math.random() * 100 + "%";
-    star.style.animationDuration = (1 + Math.random() * 2) + "s";
+    star.style.animationDuration = (0.5 + Math.random() * 1.5) + "s"; // 🔹 cada estrella parpadea distinto
     starsContainer.appendChild(star);
   }
 });

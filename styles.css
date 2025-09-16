@@ -31,8 +31,8 @@ body{
   background: linear-gradient(180deg, rgba(0,0,0,0.9), rgba(0,0,0,0.6));
   border-bottom: 1px solid rgba(212,175,55,0.3);
 }
-.logo{height:56px}
-.logo-wrap{display:flex;align-items:center;gap:12px}
+.logo{height:86px}
+.logo-wrap{display:flex;align-items:center;gap:20px}
 .main-nav{display:flex;gap:18px;align-items:center}
 .main-nav a{color:var(--gold);text-decoration:none;font-weight:600}
 .nav-toggle{display:none;background:none;border:1px solid rgba(212,175,55,0.15);color:var(--gold);padding:6px 10px;border-radius:8px}
@@ -48,13 +48,6 @@ body{
   font-size: 28px;
   font-weight: 700;
   color: var(--gold);
-
-  /* Contorno negro */
-  text-shadow:
-    -1px -1px 0 #ddd,
-     1px -1px 0 #ddd,
-    -1px  1px 0 #ddd,
-     1px  1px 0 #ddd;
 }
 
 .main-nav {
@@ -87,11 +80,11 @@ body{
 
 .star {
   position: absolute;
-  width: 2px;
-  height: 2px;
+  width: 4px;               /* 🔹 más grandes */
+  height: 4px;
   background: #fff;
   border-radius: 50%;
-  animation: blink 2s infinite alternate;
+  animation: blink 1s infinite alternate; /* 🔹 parpadeo más rápido */
 }
 
 @keyframes blink {
@@ -224,4 +217,39 @@ input,textarea{padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,
 .producto-detalle .btn {
   align-self: flex-start;
   margin-top: 12px;
+}
+
+.nosotros h2,
+.catering h2,
+.contacto h2 {
+  color: var(--gold);
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.footer {
+  margin-top: 24px;
+  text-align: center;
+  color: #b8a86d;
+  padding: 20px 0;
+}
+
+.social-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.social-links a {
+  color: var(--gold);
+  font-size: 24px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+  color: #fff;
+  transform: scale(1.2);
 }
