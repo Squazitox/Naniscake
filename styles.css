@@ -18,17 +18,18 @@ body{
 }
 
 .site-header{
-  position:fixed;
-  top:0;
-  left:0;
-  right:0;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  padding:12px 24px;
-  z-index:50;
-  background:linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.2));
-  border-bottom:1px solid rgba(212,175,55,0.06);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;     /* 🔹 todos en una sola fila */
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  z-index: 50;
+  background: linear-gradient(180deg, rgba(0,0,0,0.9), rgba(0,0,0,0.6));
+  border-bottom: 1px solid rgba(212,175,55,0.3);
 }
 .logo{height:56px}
 .logo-wrap{display:flex;align-items:center;gap:12px}
@@ -41,12 +42,12 @@ body{
 }
 
 .brand-title {
-  margin-top: 8px;
-  font-family: 'Playfair Display', serif;
-  font-size: 18px;             /* más grande para destacar */
-  font-weight: 700;
-  color: var(--gold);          /* dorado */
+  flex: 1;                  /* ocupa el espacio central */
   text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--gold);
 
   /* Contorno negro */
   text-shadow:
