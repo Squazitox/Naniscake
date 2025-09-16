@@ -1,4 +1,15 @@
-h1,h2,h3,h4,h5,h6{font-family:'Playfair Display', serif;}
+@font-face {
+  font-family: 'Abigail';
+  src: url('fonts/SS abigail.otf') format('otf'),
+       url('SS abigail.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h4,h5,h6{font-family:'Playfair Display', serif;}
+h1, h2, h3, .brand-title {
+  font-family: 'Abigail', serif;
+}
 
 :root{
   --bg:#000000;
@@ -44,7 +55,7 @@ body{
 .brand-title {
   flex: 1;                  /* ocupa el espacio central */
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Abigail', serif;
   font-size: 20px;
   font-weight: 700;
   color: var(--gold);
@@ -223,7 +234,7 @@ input,textarea{padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,
 .catering h2,
 .contacto h2 {
   color: var(--gold);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Abigail', serif;
   font-size: 36px;
   text-align: center;
   margin-bottom: 24px;
