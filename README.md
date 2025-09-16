@@ -24,23 +24,10 @@ python -m http.server
 - Formulario de contacto con integración **Formspree**
 - Fácil despliegue en **GitHub Pages** o **Netlify**
 
-## 📩 Formulario de contacto
-En `index.html`, el formulario apunta a Formspree:
-```html
-<form action="https://formspree.io/f/yourFormID" method="POST">
-```
-1. Crea una cuenta en [Formspree](https://formspree.io/)  
-2. Reemplaza `yourFormID` con el ID de tu proyecto
-
-## 📦 Deploy en GitHub Pages
-1. Subir este repo a tu cuenta de GitHub
-2. En Settings → Pages → Source: seleccionar branch `main` y carpeta `/root`
-3. Guardar y abrir tu dominio: `https://tuusuario.github.io/squazita_site`
-
 ## 👨‍💻 Créditos
-- Diseño adaptado por [Tu Nombre]  
-- Logo: proporcionado por el cliente  
-- Imágenes de ejemplo: placeholders generados automáticamente  
+- Diseño adaptado por Ivanna Vivanco
+- Logo: Creado por Ivanna Vivanco  
+- Imágenes de ejemplo: Creado por Ivanna Vivanco  
 
 ---
 © Squazita Dulces
