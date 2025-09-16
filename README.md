@@ -1,5 +1,5 @@
 # Squazita Dulces 🍰✨
-![Watch the video](images/Logo.mp4)
+![Watch the video](images/Logo.gif)
 
 Sitio web estático de la marca **Squazita Dulces**  
 Paleta: negro + dorado · Diseño elegante y responsivo · Animaciones sutiles
