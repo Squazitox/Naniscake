@@ -29,3 +29,29 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("contactForm");
+
+  if (form) {
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      // enviar datos usando fetch a Formspree
+      const formData = new FormData(form);
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (response.ok) {
+        alert("Gracias! Hemos recibido tu mensaje.");
+        form.reset(); // 🔹 Limpia los campos
+      } else {
+        alert("Ocurrió un error al enviar el mensaje. Intenta nuevamente.");
+      }
+    });
+  }
+});
