@@ -1,4 +1,4 @@
-# Squazita Dulces 🍰✨
+# Squazita Cake🍰✨
 ![Watch the video](images/Logo.gif)
 
 Sitio web estático de la marca **Squazita Dulces**  
