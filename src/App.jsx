@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const FORMSPREE = 'https://formspree.io/f/mwprgwaz';
 
 const products = [
-  { id:1, name:'Red Velvet Sin Azúcar', price:45, desc:'Torta sin azúcar para diabéticos' },
+  { id:1, name:'Green Velvet Sin Azúcar', price:45, desc:'Torta sin azúcar para diabéticos' },
   { id:2, name:'Chocolate Keto', price:50, desc:'Apta para celíacos y sin azúcar' },
   { id:3, name:'Vainilla Esponjosa', price:35, desc:'Ideal para celebraciones' },
 ];
