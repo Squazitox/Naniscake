@@ -84,7 +84,7 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  background: black;
+  background: white;
   z-index: -1;
   overflow: hidden;
 }
@@ -93,7 +93,7 @@ body{
   position: absolute;
   width: 4px;               /* 🔹 más grandes */
   height: 4px;
-  background: #fff;
+  background: #C71585;
   border-radius: 50%;
   animation: blink 1s infinite alternate; /* 🔹 parpadeo más rápido */
 }
@@ -112,7 +112,7 @@ body{
 .slogan{color:var(--muted);font-size:18px;margin-bottom:18px}
 .btn{
   background:linear-gradient(90deg, var(--gold), #f0d58a);
-  color:#111;
+  color:#ffffff;
   padding:12px 22px;
   border-radius:30px;
   text-decoration:none;
